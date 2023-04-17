@@ -4,7 +4,7 @@ a {
   color: #222222;
 }
 
-.menu__list {
+ul {
     list-style: none;
     line-height: 1.5;
 }
