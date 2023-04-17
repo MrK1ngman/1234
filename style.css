@@ -3,8 +3,9 @@ body {
 }
 
 a {
+  outline: none;
   text-decoration: none;
-  color: #000000;
+  color: #222222;
 }
 
 .aside__menu {
