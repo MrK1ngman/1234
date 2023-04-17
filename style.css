@@ -13,6 +13,12 @@ div {
     display: block;
 }
 
+.welcome__label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
 .welcome__link {
     display: inline-block;
     padding-bottom: 2px;
