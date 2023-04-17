@@ -1,55 +1,22 @@
-@media (min-width: 480px) {
-  .container {
+@media (min-width: 961px) {
+  .page {
     display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 640px) {
-  .card:nth-child(3n+3) {
-    width: 100%;
   }
   
-  .card{
-    width: 50%;
-  }
-}
-
-
-@media (min-width: 641px) and (max-width: 960px) {
-  .card:nth-child(5n+1),
-  .card:nth-child(5n+2) {
-    width: 50%;
+  .aside {
+    width: 320px;
+    margin-right: 40px;
+    flex: none;
   }
   
-  .card {
-    width: calc(100%/3);
+  .content {
+    flex-grow: 1;
+    order: 1;
   }
 }
-
-@media (min-width: 961px) and (max-width: 1280px) {
-  .card:nth-child(-6n+12),
-  .card:nth-child(-6n+11) {
-    width: 50%;
-  }
-   
-  .card {
-    width: 25%;
-  }
-}
-
-@media (min-width: 1281px) {
-  .card:nth-child(8n+6),
-  .card:nth-child(8n+7),
-  .card:nth-child(8n+8) {
-    width: calc(100%/3);
-  }
-
-  .card:nth-child(n+17) {
-    width: 25%;
-  }
   
-  .card{
-    width: 20%;
+@media (max-width: 960px) {
+  .aside__menu {
+    display: none;
   }
 }
