@@ -1,7 +1,7 @@
 .welcome {
   position: relative;
   color: #ffffff;
-  min-height: 100vh;
+  min-height: 100%;
   background-image: url('https://netology-code.github.io/mq-homeworks/breakpoints/coming-soon/img/man-full.jpg');
   background-repeat: no-repeat;
   background-position: center 50%;
@@ -14,6 +14,7 @@
     left: 0;
     bottom: 0;
     z-index: 2;
+  
 }
 
 div {
@@ -63,6 +64,7 @@ body {
   
   .container {
     padding: 15% 5%;
+    box-sizing: border-box;
     font-size: 2rem;
 }
 }
